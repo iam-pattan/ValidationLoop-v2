@@ -1,0 +1,15 @@
+{
+  "name": "validation-loop-marketplace",
+  "owner": { "name": "iam-pattan" },
+  "metadata": {
+    "description": "ValidationLoop — goal-aware second-model validation for Claude Code.",
+    "version": "2.0.0"
+  },
+  "plugins": [
+    {
+      "name": "validation-loop",
+      "source": "./plugins/validation-loop",
+      "description": "Goal-aware second-model QC. UserPromptSubmit captures the session goal; /validate runs an independent, context-free judge that scores changed files and emits PASS/REVIEW/REWORK."
+    }
+  ]
+}

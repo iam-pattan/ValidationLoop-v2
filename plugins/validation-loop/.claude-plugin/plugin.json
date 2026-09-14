@@ -1,0 +1,9 @@
+{
+  "name": "validation-loop",
+  "version": "2.0.0",
+  "description": "Goal-aware second-model validation for Claude Code. A UserPromptSubmit hook captures the session goal; /validate runs an independent judge (no session context, goal context only) that scores changed files on a weighted rubric and emits PASS/REVIEW/REWORK.",
+  "author": { "name": "iam-pattan" },
+  "homepage": "https://github.com/iam-pattan/ValidationLoop-v2",
+  "license": "MIT",
+  "keywords": ["validation", "qc", "review", "llm-as-judge", "goal-alignment"]
+}
